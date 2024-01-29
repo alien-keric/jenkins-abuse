@@ -17,4 +17,12 @@ This console allows a user or attacker to run commands for automation and report
 
 example of reverse shell:
 payload.sh
+
+
+Step 5: Paste this script in the console.
+Paste the script above and click "Run" button
+
+Step 6: Start Netcat listener on the Attacker machine.
+
+And after some few second you will get the reverse shell or backdoor back
 ```
